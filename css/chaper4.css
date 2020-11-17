@@ -1,0 +1,44 @@
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 100px;
+    border: 1px solid black;
+}
+
+.content{
+    height: 300px;
+    border: 1px solid red;
+    padding: 30px;
+}
+
+.content p{
+    color: blue;
+    margin-bottom: 30px;
+}
+
+.content a{
+    width: 90px;
+    display: block;
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.content a:hover{
+    background-color: black;
+}
+
+.footer{
+    height: 100px;
+    background-color: palevioletred;
+}
+
+.footer p{
+    text-align: center;
+}
+
