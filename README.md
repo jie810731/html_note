@@ -36,3 +36,15 @@
 
 不會因為border padding影響實際大小
 
+##css相對定位/絕對定位
+###絕對定位
+.class{  
+   &nbsp;position:absolute;  
+   &nbsp;top:0;  
+   right:0;  
+}  
+position:fixed  不因滾輪滑動，固定在網頁上
+
+### jpg沒有透明效果(一定會有底色)  
+### png可透明
+

@@ -1,0 +1,25 @@
+.productList{
+    width: 600px;
+}
+.productList li{
+    padding: 10px;
+    float: left;
+    width: 145px;
+    height: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.productList li img{
+    width: 100%;
+}
+.productList li h2{
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.productList li span{
+    color: red;
+    font-size: 20px;
+}
