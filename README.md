@@ -48,3 +48,43 @@ position:fixed  不因滾輪滑動，固定在網頁上
 ### jpg沒有透明效果(一定會有底色)  
 ### png可透明
 
+## pure css 兼容各瀏覽器css  
+
+###css背景色漸層效果
+.class{  
+   &nbsp;background:linear-gradient(開始顏色,結束顏色)    
+} 
+
+###css陰影效果
+.class{  
+   &nbsp;box-shadow:5px(x軸開始位置) 5px(y軸開始位置) 15px(擴散大小) black(顏色)
+      
+} 
+
+
+##css語法可使用瀏覽器
+[can i use](https://caniuse.com "")
+
+##瀏覽器市占率
+[statcouner](https://gs.statcounter.com/ "")
+
+##css權重(由高至低)
+1. important
+2. inline css
+3. id
+4. class
+5. html tag
+
+##meta help
+* property="og:XXXXX" 給facebook讀取用的
+*  `<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>"` ie不因使用者自行更改版本
+
+##icon資源
+[icon finder](https://www.iconfinder.com/ "")
+
+##圖片資源
+[unsplash](https://unsplash.com/ "")
+
+[filcker](https://www.flickr.com/explore "")
+
+
