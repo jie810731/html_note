@@ -87,4 +87,31 @@ position:fixed  不因滾輪滑動，固定在網頁上
 
 [filcker](https://www.flickr.com/explore "")
 
+##flex
+在父容器下 display:flex 可讓子元件並排
+
+flex方向 
+
+### flex-direction
+* row(default)
+* row-reverse
+* column(從上到下)
+* column-reverse
+
+### justify-content(主軸對齊方式)
+![](./0001.png)
+
+### align-items(交錯軸對齊方式)
+![](./0002.png)
+
+### flex-wrap(決定換行屬性)
+* no-wrap(default)
+* wrap
+
+
+flex特性
+
+* 子元件會依據父元件寬度做調整(子元件總寬度不會超過父元件)
+* 子元件任一個元素有設定高度時，其他元素會跟者設定
+
 
