@@ -1,0 +1,49 @@
+.body{
+  background-color: gray;
+}
+.wrap{
+    width: 1080px;
+    margin: 0 auto;
+    display: flex;
+}
+.aside{
+    width: 325px;
+    background-color: #e7eeea;
+    text-align: center;
+}
+.aside img{
+    margin-top: 70px;
+}
+.aside ul{
+    margin-top: 30px;
+}
+.aside ul li{
+    margin-bottom: 34px;
+}
+.aside ul li a{
+   text-decoration: none;
+   font-size: 26px;
+   color: #37523d;
+}
+.content{
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: white;
+}
+.content h2{
+    color: #37523d;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight:bold;
+}
+.content p{
+    margin-top: 34px;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.picture{
+    height: 326px;
+    display: block;
+    background-image: url('pic.png');
+    background-repeat:space;
+}
