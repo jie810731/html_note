@@ -1,0 +1,39 @@
+.body{
+    background-color: gray;
+}
+.wrap{
+    width: 1287px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.backgroud{
+    background-color: #e7eeea;
+}
+.font_color{
+    color: #37523d;
+}
+.h2_color{
+    color:#37523d;
+}
+.small_row{
+    display: flex;
+}
+.smaill_item{
+    padding-left: 25px;
+    padding-right: 43px;
+    padding-top: 20px;
+    padding-bottom: 28px;
+    width: 33%;
+    display: flex;
+}
+.smaill_item img{
+   width: 55px;
+   height: 55px;
+}
+.smaill_item h2{
+    padding-top: 10px;
+    margin-bottom: 22px;
+}
+.smaill_item div{
+    margin-left: 10px;
+}
