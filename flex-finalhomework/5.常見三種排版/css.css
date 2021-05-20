@@ -1,39 +1,89 @@
-.body{
+.body {
     background-color: gray;
 }
-.wrap{
+
+.wrap {
     width: 1287px;
     background-color: #ffffff;
     margin: 0 auto;
+    ;
 }
-.backgroud{
+
+.backgroud {
     background-color: #e7eeea;
 }
-.font_color{
+
+.item {
+    width: 33%;
+}
+
+.font_color {
     color: #37523d;
 }
-.h2_color{
-    color:#37523d;
+
+.h2_color {
+    color: #37523d;
 }
-.small_row{
+
+.small_row {
     display: flex;
+    justify-content: center;
+    margin: 5px 1px 46px 1px;
 }
-.smaill_item{
+
+.smaill_item {
     padding-left: 25px;
     padding-right: 43px;
     padding-top: 20px;
     padding-bottom: 28px;
-    width: 33%;
     display: flex;
 }
-.smaill_item img{
-   width: 55px;
-   height: 55px;
+
+.smaill_item img {
+    width: 55px;
+    height: 55px;
 }
-.smaill_item h2{
+
+.smaill_item h2 {
     padding-top: 10px;
     margin-bottom: 22px;
 }
-.smaill_item div{
+
+.smaill_item div {
     margin-left: 10px;
+}
+
+.meduim_row {
+    display: flex;
+    justify-content: center;
+    margin: 46px 1px 23px 1px;
+}
+
+.meduim_item img {
+    display: block;
+    margin: auto;
+    padding: 18px 0 11px 0;
+}
+
+.meduim_item div h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.meduim_item div p {
+    padding: 0 40px 0px 40px;
+}
+
+.big_row {
+    padding: 20px 25px;
+    margin: 46px 1px 23px 1px;
+}
+
+.big_item {
+    display: flex;
+}
+
+.big_item div {
+    margin: auto;
 }
