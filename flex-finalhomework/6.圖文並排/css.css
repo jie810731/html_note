@@ -1,0 +1,47 @@
+.wrap {
+    width: 1287px;
+    background-color: #37523d;
+    margin: 0 auto;
+    padding: 18px;
+}
+
+.header {
+    padding: 0px 30px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #e7eeea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main {
+    padding: 30px 50px;
+    background-color: white;
+    display: flex;
+}
+
+.main div h2 {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 26px;
+    padding-bottom: 30px;
+}
+
+.main div p {
+    line-height: 1.5em;
+}
+
+.share {
+    display: flex;
+}
+
+.share li {
+    margin-right: 10px;
+}
