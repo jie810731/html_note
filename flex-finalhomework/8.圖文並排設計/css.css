@@ -1,0 +1,23 @@
+.wrap {
+    width: 1287px;
+    margin: 0 auto;
+    padding: 3px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap img {
+    width: 60%;
+}
+
+.aside {
+    width: 40%;
+    background-color: #b3d4d1;
+}
+
+.aside p {
+    font-size: 22px;
+    color: white;
+    padding: 174px 20%;
+    line-height: 1.5em;
+}
